@@ -21,8 +21,6 @@ import static java.lang.annotation.RetentionPolicy.RUNTIME;
 @Retention(RUNTIME)
 public @interface $NAME {
 
-    //TODO Add custom attributes if needed
-
     String message();
 
     Class<?>[] groups() default {};

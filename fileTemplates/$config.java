@@ -1,8 +1,8 @@
 #if ($PACKAGE_NAME && $PACKAGE_NAME != "")package $PACKAGE_NAME;#end
 
-import org.springframework.stereotype.Service;
+import org.springframework.boot.SpringBootConfiguration;
 
-@Service
+@SpringBootConfiguration
 public class ${NAME} {
-
+    
 }

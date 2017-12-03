@@ -2,6 +2,7 @@
 
 public class ${NAME} extends Exception {
 
+    private final String message;
     public ${NAME}(String message) {
         super(message);
     }
